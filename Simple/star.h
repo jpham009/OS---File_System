@@ -6,22 +6,23 @@
 #include <string.h>
 
 void createRepository(){
+	system("mkdir ");
 
 }
 void addFile(){
-
+	system("touch ");
 }
 void deleteFile(){
-
+	system("rm ");
 }
-void trashFile(){
-
-}
+// void trashFile(){
+// 	system("mkdir ");
+// }
 void listDirectory(){
-
+	system("ls ");
 }
 void copyFile(){
-	
+	system("cp ");
 }
 
 #endif //STAR.H
